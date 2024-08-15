@@ -6,6 +6,9 @@
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "20.10.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
