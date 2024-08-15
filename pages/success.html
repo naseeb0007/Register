@@ -3,33 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Success</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #dff0d8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #3c763d;
-        }
-    </style>
+    <title>Amazone</title>
 </head>
+<style>
+    body{
+        background-color: blueviolet;
+    }
+    *{
+        margin: 0;
+        font-family: Arial;
+        border: border-box;
+    }
+    .navbar {
+        height: 60px;
+        background-color: #161a1a;
+        color: white;
+        /*for similar line content we use*/
+        display: flex;
+        align-items: center;
+
+
+    }
+    .nav-logo{
+        height: 50px;
+        width: 100px;
+    }
+   
+    .logo {
+        background-image: url("amazon_logo.png");
+        background-size: cover;
+        height: 50px;
+        width: 100px;
+    }
+    .border{
+        border: 1.5px solid transparent;
+    }
+    .border:hover{
+        border: 1.5px solid white;
+    }
+    /*box2*/
+    .address-first{
+        color: #cccccc;
+        font-size: 0.70rem;
+    }
+    .address-second{
+        
+       
+        font-size: 0.90rem;
+        
+
+    }
+
+    
+   
+    .Kitchen{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .nav-search{
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .nav-second{
+        height: 200;
+        background-color: red;
+        color: white;
+    }
+    
+    
+</style>
 <body>
-    <div class="container">
-        <h1>Registration Successful!</h1>
-        <p>Thank you for registering. Your information has been saved.</p>
-    </div>
+    <header>
+       <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+
+        <div class="nav-address border">
+            <p class="address-first">Deliver To Lucknow 226002</p>
+            <div class="adress-icon">
+                
+                <p class="address-second">UPDATE LOCATION</p>
+            </div>
+             </div>
+
+             <div class="Home-Kitchen border">
+                <select class="Kitchen">
+                    <option value="Home & Kitchen">Home & Kitchen</option>
+                    <option value="Amazone Fashion">Amazone Fashion</option>
+                    <option value="Amazone Fresh">Amazone Fresh</option>
+                    <option value="Books">Books</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Baby">Baby</option>
+                     
+                </select>
+
+                
+        </div>
+
+        <div class="nav-search border">
+            <input type="Search Amazone">
+        </div>
+
+        <a href="/signin">Sign-In</a>
+
+
+
+
+       </div>
+
+
+
+
+       
+
+       
+    </header>
+
+    <header>
+        <div class="nav-second">
+
+        </div>
+ 
+    </header>
 </body>
 </html>
